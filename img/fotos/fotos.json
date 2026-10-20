@@ -1,0 +1,213 @@
+[
+ {
+  "nombre": "portada-recepcion",
+  "anchos": [
+   480,
+   800,
+   846
+  ],
+  "ancho": 846,
+  "alto": 846,
+  "origen": "fotos/podogal-portada.jpeg",
+  "ancho_origen": 846,
+  "alto_origen": 846
+ },
+ {
+  "nombre": "recepcion",
+  "anchos": [
+   480,
+   800,
+   1200,
+   1500
+  ],
+  "ancho": 1500,
+  "alto": 846,
+  "origen": "fotos/podogal-portada.jpeg",
+  "ancho_origen": 1500,
+  "alto_origen": 846
+ },
+ {
+  "nombre": "pasillo",
+  "anchos": [
+   480,
+   800,
+   1200,
+   1600,
+   1800
+  ],
+  "ancho": 1800,
+  "alto": 1201,
+  "origen": "fotos/slider1-2.jpg",
+  "ancho_origen": 1800,
+  "alto_origen": 1201
+ },
+ {
+  "nombre": "navor-pie",
+  "anchos": [
+   480,
+   800,
+   1200,
+   1600,
+   1800
+  ],
+  "ancho": 1800,
+  "alto": 1201,
+  "origen": "fotos/slider2-1.jpg",
+  "ancho_origen": 1800,
+  "alto_origen": 1201
+ },
+ {
+  "nombre": "fisio-espalda",
+  "anchos": [
+   480,
+   800,
+   1200,
+   1600,
+   1800
+  ],
+  "ancho": 1800,
+  "alto": 1201,
+  "origen": "fotos/slider3-1.jpg",
+  "ancho_origen": 1800,
+  "alto_origen": 1201
+ },
+ {
+  "nombre": "pisada",
+  "anchos": [
+   480,
+   800,
+   1200,
+   1500
+  ],
+  "ancho": 1500,
+  "alto": 1000,
+  "origen": "fotos/fisioterapia-podogal-ourense.jpeg",
+  "ancho_origen": 1500,
+  "alto_origen": 1000
+ },
+ {
+  "nombre": "cinta",
+  "anchos": [
+   480,
+   800,
+   1200,
+   1600,
+   2045
+  ],
+  "ancho": 2045,
+  "alto": 1365,
+  "origen": "fotos/ANT4961.jpg",
+  "ancho_origen": 2045,
+  "alto_origen": 1365
+ },
+ {
+  "nombre": "salto",
+  "anchos": [
+   480,
+   800,
+   1200
+  ],
+  "ancho": 1200,
+  "alto": 854,
+  "origen": "fotos/valoracion-podogal.jpeg",
+  "ancho_origen": 1200,
+  "alto_origen": 854
+ },
+ {
+  "nombre": "plantillas",
+  "anchos": [
+   480,
+   800,
+   1200,
+   1500
+  ],
+  "ancho": 1500,
+  "alto": 1000,
+  "origen": "fotos/plantillas-podogal-ourense.jpeg",
+  "ancho_origen": 1500,
+  "alto_origen": 1000
+ },
+ {
+  "nombre": "r-sonia",
+  "anchos": [
+   480,
+   700
+  ],
+  "ancho": 700,
+  "alto": 875,
+  "origen": "fotos/sonia-podogal.jpeg",
+  "ancho_origen": 700,
+  "alto_origen": 875
+ },
+ {
+  "nombre": "r-navor",
+  "anchos": [
+   400
+  ],
+  "ancho": 400,
+  "alto": 500,
+  "origen": "fotos/Navor-1.jpg",
+  "ancho_origen": 400,
+  "alto_origen": 500
+ },
+ {
+  "nombre": "r-maria",
+  "anchos": [
+   480,
+   700
+  ],
+  "ancho": 700,
+  "alto": 875,
+  "origen": "fotos/maria-rego-podogal.jpeg",
+  "ancho_origen": 700,
+  "alto_origen": 875
+ },
+ {
+  "nombre": "equipo",
+  "anchos": [
+   480,
+   640
+  ],
+  "ancho": 640,
+  "alto": 640,
+  "origen": "ig/02-DcZO_tnubd5.jpg",
+  "ancho_origen": 640,
+  "alto_origen": 640
+ },
+ {
+  "nombre": "taller-alcer",
+  "anchos": [
+   480,
+   639
+  ],
+  "ancho": 639,
+  "alto": 639,
+  "origen": "ig/04-DTsK4c1jJKn.jpg",
+  "ancho_origen": 639,
+  "alto_origen": 639
+ },
+ {
+  "nombre": "una",
+  "anchos": [
+   480,
+   640
+  ],
+  "ancho": 640,
+  "alto": 639,
+  "origen": "ig/09-DLQdZN9NGnL.jpg",
+  "ancho_origen": 640,
+  "alto_origen": 639
+ },
+ {
+  "nombre": "congreso",
+  "anchos": [
+   480,
+   640
+  ],
+  "ancho": 640,
+  "alto": 640,
+  "origen": "ig/01-DdRn7jPCPTF.jpg",
+  "ancho_origen": 640,
+  "alto_origen": 640
+ }
+]

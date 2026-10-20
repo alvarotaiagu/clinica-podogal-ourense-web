@@ -1,0 +1,68 @@
+/* Podogal · «Pisa aquí»: un panel grafito dentro de la página clara, como la pantalla del portátil de la clínica */
+.pisada{
+  --pisada-fondo:#16171A; --pisada-borde:#2E3136; --pisada-texto:#ECEAE5; --pisada-tenue:#A3A6AB;
+  --pisada-calor:linear-gradient(0deg,#2B6BF3,#3FD0C9 34%,#F5D547 66%,var(--naranja,#FF8F01));
+  background:var(--grafito,#1E1F22);color:var(--pisada-texto);border-radius:clamp(14px,2vw,22px);
+  padding:clamp(20px,4vw,48px);display:grid;gap:clamp(20px,3vw,36px);font-family:var(--f-texto,"Geist",system-ui,sans-serif);
+  box-shadow:0 30px 60px -36px rgb(0 0 0 / .55);container-type:inline-size;overflow:hidden}
+.pisada *{box-sizing:border-box}
+.pisada-cab{display:grid;gap:12px;max-width:62ch}
+.pisada-ant{margin:0;display:flex;align-items:center;gap:10px;font:500 12px/1 var(--f-mono,"Geist Mono",monospace);letter-spacing:.16em;text-transform:uppercase;color:var(--naranja,#FF8F01)}
+.pisada-ant i{width:8px;height:8px;border-radius:50%;background:var(--naranja,#FF8F01);box-shadow:0 0 0 0 rgb(255 143 1 / .6);animation:pisada-latido 1.8s ease-out infinite}
+@keyframes pisada-latido{to{box-shadow:0 0 0 10px rgb(255 143 1 / 0)}}
+.pisada-tit{margin:0;font:500 clamp(26px,4.2vw,44px)/1.08 var(--f-display,"Cinzel",serif);letter-spacing:.02em;color:var(--cal,#F6F3EE);text-wrap:balance}
+.pisada-intro{margin:0;color:var(--pisada-tenue);font-size:clamp(15px,1.5vw,17px);line-height:1.55}
+.pisada-cuerpo{display:grid;grid-template-columns:minmax(0,1.05fr) minmax(0,1fr);gap:clamp(20px,3vw,40px);align-items:stretch}
+
+/* la pantalla */
+.pisada-pant{position:relative;background:var(--pisada-fondo);border-radius:12px;overflow:hidden;min-height:540px;box-shadow:inset 0 0 0 1px var(--pisada-borde)}
+.pisada-can{position:absolute;inset:0;width:100%;height:100%;display:block}
+.pisada-barra{position:absolute;z-index:1;top:14px;left:16px;right:16px;display:flex;justify-content:space-between;gap:10px;font:400 11px/1 var(--f-mono,"Geist Mono",monospace);letter-spacing:.12em;text-transform:uppercase;color:var(--pisada-tenue)}
+.pisada-barra > span:last-child{color:var(--naranja,#FF8F01)}
+.pisada-escala{position:absolute;z-index:1;right:16px;top:48px;bottom:56px;width:6px;display:grid}
+.pisada-escala i{border-radius:6px;background:var(--pisada-calor)}
+.pisada-escala span{position:absolute;right:14px;font:400 10px/1 var(--f-mono,"Geist Mono",monospace);color:var(--pisada-tenue);white-space:nowrap;text-transform:uppercase;letter-spacing:.08em}
+.pisada-escala span:nth-of-type(1){top:0}
+.pisada-escala span:nth-of-type(2){bottom:0}
+.pisada-lect{position:absolute;z-index:1;left:16px;right:16px;bottom:14px;margin:0;display:flex;flex-wrap:wrap;justify-content:space-between;gap:4px 14px;font:400 11px/1.3 var(--f-mono,"Geist Mono",monospace);letter-spacing:.08em;text-transform:uppercase;color:var(--pisada-tenue);font-variant-numeric:tabular-nums}
+.pisada-lect-fase{color:var(--pisada-texto)}
+
+/* los mandos */
+.pisada-ctl{display:grid;gap:18px;align-content:start;min-width:0}
+.pisada-pies{display:flex;flex-wrap:wrap;gap:8px;align-items:center}
+.pisada-et{flex-basis:100%;font:500 11.5px/1 var(--f-mono,"Geist Mono",monospace);letter-spacing:.14em;text-transform:uppercase;color:var(--pisada-tenue);margin-bottom:2px}
+.pisada button{font:500 14.5px/1 var(--f-texto,"Geist",sans-serif);cursor:pointer;border-radius:999px;min-height:44px;padding:0 18px;
+  border:1px solid var(--pisada-borde);background:transparent;color:var(--pisada-texto);transition:background-color .2s,border-color .2s,color .2s}
+.pisada button:hover{border-color:var(--naranja,#FF8F01)}
+.pisada button[aria-pressed="true"]{background:var(--cal,#F6F3EE);color:var(--grafito,#1E1F22);border-color:var(--cal,#F6F3EE)}
+.pisada button:focus-visible,.pisada input:focus-visible{outline:2px solid var(--naranja,#FF8F01);outline-offset:3px}
+.pisada-desc{margin:0;min-height:4.8em;line-height:1.55;color:var(--pisada-texto);max-width:52ch}
+.pisada-fase{display:grid;grid-template-columns:auto 1fr;align-items:center;gap:10px 16px}
+.pisada .pisada-play{min-width:9.5em;border-color:var(--naranja,#FF8F01);color:var(--naranja,#FF8F01)}
+.pisada .pisada-play[aria-pressed="true"]{background:var(--naranja,#FF8F01);color:#1a0f00}
+.pisada-fase label{font-size:14px;color:var(--pisada-tenue);display:flex;justify-content:space-between;gap:10px}
+.pisada-fase output{font:500 14px/1 var(--f-mono,"Geist Mono",monospace);color:var(--pisada-texto);font-variant-numeric:tabular-nums}
+.pisada-fase input{grid-column:1/-1;width:100%;accent-color:var(--naranja,#FF8F01);height:32px;margin:0}
+.pisada-nombre{margin:0;font:500 clamp(21px,2.4vw,28px)/1.1 var(--f-display,"Cinzel",serif);letter-spacing:.02em;color:var(--cal,#F6F3EE)}
+.pisada-reparto{display:grid;gap:10px}
+.pisada-reparto div{display:grid;grid-template-columns:5.6em 1fr 3.4em;align-items:center;gap:12px;font-size:14.5px}
+.pisada-reparto i{height:10px;border-radius:9px;background:var(--pisada-borde);overflow:hidden;display:block}
+.pisada-reparto b{display:block;height:100%;width:0;border-radius:inherit;background:linear-gradient(90deg,#3FD0C9,#F5D547,var(--naranja,#FF8F01));transition:width .35s cubic-bezier(.16,1,.3,1)}
+.pisada-reparto output{text-align:right;font:500 15px/1 var(--f-mono,"Geist Mono",monospace);font-variant-numeric:tabular-nums}
+.pisada-dl{margin:0;display:flex;justify-content:space-between;gap:12px;border-top:1px solid var(--pisada-borde);padding-top:14px;font-size:14.5px}
+.pisada-dl dt{color:var(--pisada-tenue)}
+.pisada-dl dd{margin:0;font-weight:600;text-align:right}
+.pisada-vivo{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
+.pisada-aviso{margin:0;font:400 12.5px/1.5 var(--f-mono,"Geist Mono",monospace);color:var(--naranja-suave,#FFE3BF);border:1px solid rgb(255 143 1 / .35);background:rgb(255 143 1 / .08);padding:11px 13px;border-radius:8px}
+
+/* móvil: la huella manda; la pantalla primero y alta */
+@container (max-width:760px){
+  .pisada-cuerpo{grid-template-columns:1fr}
+  .pisada-pant{min-height:0;height:clamp(440px,128cqi,620px)}
+}
+@container (max-width:420px){
+  .pisada-reparto div{grid-template-columns:5.2em 1fr 3em;gap:10px}
+  .pisada-escala span,.pisada-largo,.pisada-lect-rep{display:none}
+  .pisada button{padding:0 14px;font-size:14px}
+}
+@media (prefers-reduced-motion: reduce){ .pisada-ant i{animation:none} .pisada-reparto b{transition:none} }

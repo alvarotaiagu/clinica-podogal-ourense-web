@@ -1,0 +1,18 @@
+[
+ {"nombre": "portada-recepcion", "ruta": "fotos/podogal-portada.jpeg", "sat": 0.95, "aq": 46, "wq": 70, "recorte": {"left": 270, "top": 0, "width": 846, "height": 846}},
+ {"nombre": "recepcion", "ruta": "fotos/podogal-portada.jpeg", "sat": 0.95},
+ {"nombre": "pasillo", "ruta": "fotos/slider1-2.jpg", "sat": 0.95},
+ {"nombre": "navor-pie", "ruta": "fotos/slider2-1.jpg", "sat": 0.95},
+ {"nombre": "fisio-espalda", "ruta": "fotos/slider3-1.jpg", "sat": 0.95},
+ {"nombre": "pisada", "ruta": "fotos/fisioterapia-podogal-ourense.jpeg", "sat": 0.95},
+ {"nombre": "cinta", "ruta": "fotos/ANT4961.jpg", "sat": 0.95},
+ {"nombre": "salto", "ruta": "fotos/valoracion-podogal.jpeg", "sat": 0.95},
+ {"nombre": "plantillas", "ruta": "fotos/plantillas-podogal-ourense.jpeg", "sat": 0.95},
+ {"nombre": "r-sonia", "ruta": "fotos/sonia-podogal.jpeg", "sat": 0.95, "recorte": {"left": 150, "top": 0, "width": 700, "height": 875}},
+ {"nombre": "r-navor", "ruta": "fotos/Navor-1.jpg", "sat": 0.95, "recorte": {"left": 50, "top": 0, "width": 400, "height": 500}},
+ {"nombre": "r-maria", "ruta": "fotos/maria-rego-podogal.jpeg", "sat": 0.95, "recorte": {"left": 150, "top": 0, "width": 700, "height": 875}},
+ {"nombre": "equipo", "ruta": "ig/02-DcZO_tnubd5.jpg", "sat": 0.95},
+ {"nombre": "taller-alcer", "ruta": "ig/04-DTsK4c1jJKn.jpg", "sat": 0.95},
+ {"nombre": "una", "ruta": "ig/09-DLQdZN9NGnL.jpg", "sat": 0.95},
+ {"nombre": "congreso", "ruta": "ig/01-DdRn7jPCPTF.jpg", "sat": 0.95}
+]

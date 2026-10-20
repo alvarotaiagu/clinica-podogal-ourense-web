@@ -1,0 +1,643 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="robots" content="noindex,nofollow">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Clínica Podogal · Podología, fisioterapia y psicología en Ourense</title>
+<meta name="description" content="Clínica de podología en Ourense desde 2003: biomecánica y plantillas a medida de taller propio, cirugía del pie, pie diabético, fisioterapia, readaptación y psicología. Rúa Serra de Queixa 6. 4,8 en Google con 147 reseñas.">
+<meta name="theme-color" content="#F6F3EE">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="es_ES">
+<meta property="og:title" content="Clínica Podogal · Ourense">
+<meta property="og:description" content="Tus pies, en las mejores manos. Podología, fisioterapia y psicología en la Rúa Serra de Queixa, desde 2003.">
+<meta property="og:image" content="img/og.jpg">
+<meta name="twitter:card" content="summary_large_image">
+
+<!-- script bloqueante: clases antes del primer pintado -->
+<script>
+(function (d) {
+  var h = d.documentElement;
+  h.classList.add('js');
+  // MANDO DE MAQUETA (no viaja al cliente): solo con ?revision
+  try {
+    var q = new URLSearchParams(location.search);
+    if (q.has('revision')) {
+      h.classList.add('revision');
+      if (q.get('densidad') === 'sobria') h.classList.add('densidad-sobria');
+    }
+  } catch (e) {}
+  // red de seguridad por si main.js no llega: la cortina se va sola
+  window.__redCortina = setTimeout(function () { h.classList.add('cortina-fuera'); }, 6500);
+})(document);
+</script>
+
+<link rel="preload" as="image" type="image/avif" fetchpriority="high"
+      imagesrcset="img/fotos/portada-recepcion-480.avif 480w, img/fotos/portada-recepcion-800.avif 800w, img/fotos/portada-recepcion-846.avif 846w"
+      imagesizes="(max-width: 899px) 78vw, 40vw">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400..700&family=Geist:wght@300..700&family=Geist+Mono:wght@400;500&display=swap">
+<link rel="stylesheet" href="css/estilos.css?v=85a55123">
+<link rel="stylesheet" href="css/pisada.css?v=5d70dd8e">
+<link rel="stylesheet" href="css/juanete.css?v=c8ef0a89">
+<link rel="icon" href="marca/favicon.svg" type="image/svg+xml">
+<link rel="icon" href="marca/favicon-32.png" sizes="32x32" type="image/png">
+<link rel="apple-touch-icon" href="marca/apple-touch-icon.png">
+<link rel="manifest" href="manifest.json">
+<noscript><style>.cortina{display:none!important}</style></noscript>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "MedicalClinic",
+  "name": "Clínica Podogal",
+  "description": "Clínica de podología en Ourense desde 2003, con fisioterapia, readaptación y psicología: biomecánica, plantillas a medida, cirugía del pie y pie diabético.",
+  "medicalSpecialty": ["Podiatric", "PhysicalTherapy"],
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Rúa Serra de Queixa, 6, bajo",
+    "addressLocality": "Ourense",
+    "postalCode": "32005",
+    "addressRegion": "Ourense",
+    "addressCountry": "ES"
+  },
+  "telephone": "+34 988 25 55 37",
+  "email": "info@podogal.com",
+  "aggregateRating": { "@type": "AggregateRating", "ratingValue": "4.8", "reviewCount": "147", "bestRating": "5" },
+  "openingHoursSpecification": [
+    { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday", "Wednesday"], "opens": "09:00", "closes": "17:30" },
+    { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Tuesday", "Thursday"], "opens": "09:30", "closes": "13:30" },
+    { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Tuesday", "Thursday"], "opens": "15:30", "closes": "19:30" },
+    { "@type": "OpeningHoursSpecification", "dayOfWeek": "Friday", "opens": "09:00", "closes": "17:00" }
+  ],
+  "sameAs": ["https://www.instagram.com/clinicapodogal/", "https://www.facebook.com/clinicapodogal/"]
+}
+</script>
+</head>
+<body>
+
+<!-- la O de Podogal, medida sobre su favicon: aro grueso a la izquierda, fino a la derecha, punto en medio -->
+<svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false">
+  <defs>
+    <symbol id="o" viewBox="0 0 206 206"><path fill="currentColor" fill-rule="evenodd" d="M6 103a97 97 0 1 0 194 0a97 97 0 1 0-194 0ZM34 102.5a78 87 0 1 0 156 0a78 87 0 1 0-156 0Z"/><circle cx="103" cy="103" r="14" fill="currentColor"/></symbol>
+    <symbol id="o-aro" viewBox="0 0 206 206"><path fill="currentColor" fill-rule="evenodd" d="M6 103a97 97 0 1 0 194 0a97 97 0 1 0-194 0ZM34 102.5a78 87 0 1 0 156 0a78 87 0 1 0-156 0Z"/></symbol>
+  </defs>
+</svg>
+
+<a class="saltar" href="#principal">Saltar al contenido</a>
+
+<!-- ============ cortina: el punto, el aro que se dibuja y el iris que se abre ============ -->
+<div class="cortina" id="cortina" aria-hidden="true">
+  <div class="cortina__logo">
+    <div class="cortina__fila">
+      <span class="cortina__pal cortina__pal--izq"><span>POD</span></span>
+      <span class="cortina__o"><span class="cortina__tapa"></span><svg class="cortina__aro" viewBox="0 0 206 206"><use href="#o-aro"/></svg><span class="cortina__punto"></span></span>
+      <span class="cortina__pal cortina__pal--der"><span>GAL</span></span>
+    </div>
+    <span class="cortina__raya"></span>
+    <p class="cortina__clinica">CLÍNICA</p>
+  </div>
+</div>
+
+<!-- ============ cabecera ============ -->
+<header class="cab" id="cab">
+  <div class="cab__in">
+    <a class="logo" href="#principal" aria-label="Clínica Podogal, inicio">
+      <span class="logo__w" aria-hidden="true">POD<svg class="logo__o" viewBox="0 0 206 206"><use href="#o"/></svg>GAL</span>
+      <span class="logo__c" aria-hidden="true">CLÍNICA</span>
+    </a>
+    <nav class="cab__nav" aria-label="Principal">
+      <a href="#especialidades">Especialidades</a>
+      <a href="#biomecanica">Biomecánica</a>
+      <a href="#cirugia">Cirugía</a>
+      <a href="#equipo">Equipo</a>
+      <a href="#llegar">Horario</a>
+    </nav>
+    <a class="btn btn--naranja cab__cita" href="#cita">Pedir cita</a>
+    <button class="cab__menu" id="menu-btn" type="button" aria-expanded="false" aria-controls="menu-movil"><span class="vh">Menú</span><i></i><i></i></button>
+  </div>
+  <div class="menu-movil" id="menu-movil" aria-hidden="true">
+    <nav aria-label="Menú">
+      <a href="#especialidades"><small>01</small>Especialidades</a>
+      <a href="#biomecanica"><small>02</small>Biomecánica y plantillas</a>
+      <a href="#cirugia"><small>03</small>Cirugía del pie</a>
+      <a href="#equipo"><small>04</small>Equipo</a>
+      <a href="#opiniones"><small>05</small>Lo que dicen</a>
+      <a href="#llegar"><small>06</small>Horario y cómo llegar</a>
+    </nav>
+    <a class="btn btn--naranja" href="#cita">Pedir cita</a>
+    <p class="menu-movil__tel"><a href="tel:+34988255537">988 25 55 37</a> · <a href="tel:+34616840129">616 84 01 29</a></p>
+  </div>
+</header>
+
+<main id="principal">
+
+<!-- ============ portada: la clínica dentro de la O ============ -->
+<section class="hero" id="hero" aria-labelledby="hero-tit">
+  <div class="hero__fondo" aria-hidden="true"></div>
+  <div class="env hero__in">
+    <div class="hero__txt">
+      <p class="eyebrow hero__ant"><span>Podología · Fisioterapia · Psicología</span><span>Ourense, desde 2003</span></p>
+      <h1 class="hero__lema" id="hero-tit" data-partir>Tus pies, en las mejores <em>manos</em></h1>
+      <p class="hero__bajada">Podología, biomecánica y plantillas de taller propio, cirugía del pie, fisioterapia, readaptación y psicología, puerta con puerta en la Rúa Serra de Queixa.</p>
+      <div class="hero__acc">
+        <a class="btn btn--grafito" href="#cita">Pedir cita <i class="punto" aria-hidden="true"></i></a>
+        <a class="hero__tel" href="tel:+34988255537">988 25 55 37</a>
+      </div>
+      <p class="hero__datos">
+        <a class="nota" href="https://www.google.com/maps/search/?api=1&amp;query=Cl%C3%ADnica+Podogal+Ourense" rel="noopener" target="_blank"><b>4,8</b><span class="estrellas" aria-hidden="true">★★★★★</span><span>Google · 147 reseñas</span></a>
+        <span class="ahora"><i class="ahora__punto" data-ahora-punto></i><span data-ahora>Lunes y miércoles de 9:00 a 17:30</span></span>
+      </p>
+    </div>
+    <figure class="ojo" id="ojo">
+      <svg class="ojo__orbita" viewBox="0 0 400 400" aria-hidden="true">
+        <defs><path id="orbita" d="M200 200m-182 0a182 182 0 1 1 364 0a182 182 0 1 1-364 0"/></defs>
+        <text><textPath href="#orbita">PODOLOGÍA · BIOMECÁNICA · CIRUGÍA DEL PIE · FISIOTERAPIA · READAPTACIÓN · PSICOLOGÍA ·</textPath></text>
+      </svg>
+      <div class="ojo__giro">
+        <div class="ojo__iris">
+          <picture data-foto="portada-recepcion"><source type="image/avif" srcset="img/fotos/portada-recepcion-480.avif 480w, img/fotos/portada-recepcion-800.avif 800w, img/fotos/portada-recepcion-846.avif 846w" sizes="(max-width: 899px) 78vw, 40vw"><source type="image/webp" srcset="img/fotos/portada-recepcion-480.webp 480w, img/fotos/portada-recepcion-800.webp 800w, img/fotos/portada-recepcion-846.webp 846w" sizes="(max-width: 899px) 78vw, 40vw"><img src="img/fotos/portada-recepcion-800.jpg" srcset="img/fotos/portada-recepcion-480.jpg 480w, img/fotos/portada-recepcion-800.jpg 800w, img/fotos/portada-recepcion-846.jpg 846w" sizes="(max-width: 899px) 78vw, 40vw" width="846" height="846" fetchpriority="high" loading="eager" alt="La recepción de Podogal: el rótulo con la Tierra en lugar de la O y la recepcionista al teléfono" decoding="async"></picture>
+        </div>
+        <svg class="ojo__aro" viewBox="0 0 206 206" aria-hidden="true"><use href="#o-aro"/></svg>
+      </div>
+      <span class="ojo__punto" aria-hidden="true"></span>
+      <figcaption>La recepción · Serra de Queixa 6</figcaption>
+    </figure>
+  </div>
+  <a class="hero__bajar" href="#especialidades"><span>Seis especialidades</span><i aria-hidden="true"></i></a>
+</section>
+
+<!-- ============ especialidades: el pasillo de puertas ============ -->
+<section class="sec esp" id="especialidades" aria-labelledby="esp-tit">
+  <div class="env">
+    <header class="sec-cab">
+      <p class="eyebrow"><svg class="o-mini" viewBox="0 0 206 206" aria-hidden="true"><use href="#o"/></svg>01 · Especialidades</p>
+      <h2 id="esp-tit" data-partir>Seis puertas en el mismo pasillo</h2>
+      <p class="sec-cab__txt">Desde 2016 Podogal es un centro sanitario con varias consultas bajo el mismo techo. Lo que empieza en el pie sigue a veces en la rodilla, en la espalda o en la cabeza, y aquí se trata sin cambiar de clínica. Abre una puerta.</p>
+    </header>
+    <div class="pasillo" id="pasillo">
+      <div class="puerta" data-k="podologia">
+        <button class="puerta__franja" type="button" aria-expanded="false" aria-controls="p-podologia"><span class="puerta__num">01</span><span class="puerta__nom">Podología</span><svg class="puerta__pomo" viewBox="0 0 206 206" aria-hidden="true"><use href="#o"/></svg></button>
+        <div class="puerta__dentro" id="p-podologia" role="region" aria-label="01 Podología"><div class="puerta__caja">
+          <figure class="puerta__foto"><picture data-foto="una"><source type="image/avif" srcset="img/fotos/una-480.avif 480w, img/fotos/una-640.avif 640w" sizes="(max-width: 899px) 92vw, 34vw"><source type="image/webp" srcset="img/fotos/una-480.webp 480w, img/fotos/una-640.webp 640w" sizes="(max-width: 899px) 92vw, 34vw"><img src="img/fotos/una-640.jpg" srcset="img/fotos/una-480.jpg 480w, img/fotos/una-640.jpg 640w" sizes="(max-width: 899px) 92vw, 34vw" width="640" height="639" alt="Uña del pie reconstruida con composite tras una fractura por un golpe" loading="lazy" decoding="async"></picture><figcaption>Una uña reconstruida con composite en una sola sesión</figcaption></figure>
+          <div class="puerta__txt">
+            <p class="eyebrow">Consulta 01 · Podología</p>
+            <h3>El pie, de los niños a los mayores</h3>
+            <p>Uñas, durezas, verrugas y lo que duele al caminar. A los niños se les corrigen las pequeñas alteraciones mientras se desarrollan, «con un trato cuidadoso y desenfadado». A los mayores, alivio para uñas, callos y la forma de pisar.</p>
+            <ul class="lista-o">
+              <li>Podología infantil y geriátrica</li>
+              <li>Pie diabético y prevención, con la Asociación de Diabéticos Auria y AFAOR</li>
+              <li>Uña encarnada, verrugas plantares, helomas</li>
+              <li>Reconstrucción de uñas con composite</li>
+            </ul>
+            <p class="quien"><picture data-foto="r-sonia"><source type="image/avif" srcset="img/fotos/r-sonia-480.avif 480w, img/fotos/r-sonia-700.avif 700w" sizes="48px"><source type="image/webp" srcset="img/fotos/r-sonia-480.webp 480w, img/fotos/r-sonia-700.webp 700w" sizes="48px"><img src="img/fotos/r-sonia-700.jpg" srcset="img/fotos/r-sonia-480.jpg 480w, img/fotos/r-sonia-700.jpg 700w" sizes="48px" width="700" height="875" alt="" loading="lazy" decoding="async"></picture><span><b>Sonia y Navor Pereira</b>Podólogos y codirectores</span></p>
+            <a class="btn btn--naranja" href="#cita" data-motivo="podologia">Pedir cita de podología</a>
+          </div>
+        </div></div>
+      </div>
+      <div class="puerta" data-k="biomecanica">
+        <button class="puerta__franja" type="button" aria-expanded="false" aria-controls="p-biomecanica"><span class="puerta__num">02</span><span class="puerta__nom">Biomecánica</span><svg class="puerta__pomo" viewBox="0 0 206 206" aria-hidden="true"><use href="#o"/></svg></button>
+        <div class="puerta__dentro" id="p-biomecanica" role="region" aria-label="02 Biomecánica y plantillas"><div class="puerta__caja">
+          <figure class="puerta__foto"><picture data-foto="pisada"><source type="image/avif" srcset="img/fotos/pisada-480.avif 480w, img/fotos/pisada-800.avif 800w, img/fotos/pisada-1200.avif 1200w, img/fotos/pisada-1500.avif 1500w" sizes="(max-width: 899px) 92vw, 34vw"><source type="image/webp" srcset="img/fotos/pisada-480.webp 480w, img/fotos/pisada-800.webp 800w, img/fotos/pisada-1200.webp 1200w, img/fotos/pisada-1500.webp 1500w" sizes="(max-width: 899px) 92vw, 34vw"><img src="img/fotos/pisada-800.jpg" srcset="img/fotos/pisada-480.jpg 480w, img/fotos/pisada-800.jpg 800w, img/fotos/pisada-1200.jpg 1200w, img/fotos/pisada-1500.jpg 1500w" sizes="(max-width: 899px) 92vw, 34vw" width="1500" height="1000" alt="Una podóloga mira en el portátil la huella de presiones del paciente, de pie sobre la plataforma" loading="lazy" decoding="async"></picture><figcaption>El estudio de la pisada, sobre la plataforma de presiones</figcaption></figure>
+          <div class="puerta__txt">
+            <p class="eyebrow">Consulta 02 · Biomecánica y plantillas</p>
+            <h3>Por qué duele, antes de tratar</h3>
+            <p>Exploración del pie, la rodilla, la cadera y la espalda; después, la pisada en la plataforma de presiones y, si hace falta, en vídeo y en el gesto deportivo. Con eso, un tratamiento a medida.</p>
+            <ul class="lista-o">
+              <li>Estudio muscular y articular</li>
+              <li>Estudio de la pisada en plataforma digital y videocaptación</li>
+              <li>Plantillas a medida, hechas y retocadas en su propio taller</li>
+              <li>Podología deportiva</li>
+            </ul>
+            <p class="quien"><picture data-foto="r-sonia"><source type="image/avif" srcset="img/fotos/r-sonia-480.avif 480w, img/fotos/r-sonia-700.avif 700w" sizes="48px"><source type="image/webp" srcset="img/fotos/r-sonia-480.webp 480w, img/fotos/r-sonia-700.webp 700w" sizes="48px"><img src="img/fotos/r-sonia-700.jpg" srcset="img/fotos/r-sonia-480.jpg 480w, img/fotos/r-sonia-700.jpg 700w" sizes="48px" width="700" height="875" alt="" loading="lazy" decoding="async"></picture><span><b>Sonia Pereira</b>Biomecánica y ortopodología</span></p>
+            <a class="btn btn--naranja" href="#cita" data-motivo="pisada">Pedir estudio de la pisada</a>
+          </div>
+        </div></div>
+      </div>
+      <div class="puerta" data-k="cirugia">
+        <button class="puerta__franja" type="button" aria-expanded="false" aria-controls="p-cirugia"><span class="puerta__num">03</span><span class="puerta__nom">Cirugía del pie</span><svg class="puerta__pomo" viewBox="0 0 206 206" aria-hidden="true"><use href="#o"/></svg></button>
+        <div class="puerta__dentro" id="p-cirugia" role="region" aria-label="03 Cirugía del pie"><div class="puerta__caja">
+          <figure class="puerta__foto"><picture data-foto="navor-pie"><source type="image/avif" srcset="img/fotos/navor-pie-480.avif 480w, img/fotos/navor-pie-800.avif 800w, img/fotos/navor-pie-1200.avif 1200w, img/fotos/navor-pie-1600.avif 1600w, img/fotos/navor-pie-1800.avif 1800w" sizes="(max-width: 899px) 92vw, 34vw"><source type="image/webp" srcset="img/fotos/navor-pie-480.webp 480w, img/fotos/navor-pie-800.webp 800w, img/fotos/navor-pie-1200.webp 1200w, img/fotos/navor-pie-1600.webp 1600w, img/fotos/navor-pie-1800.webp 1800w" sizes="(max-width: 899px) 92vw, 34vw"><img src="img/fotos/navor-pie-800.jpg" srcset="img/fotos/navor-pie-480.jpg 480w, img/fotos/navor-pie-800.jpg 800w, img/fotos/navor-pie-1200.jpg 1200w, img/fotos/navor-pie-1600.jpg 1600w, img/fotos/navor-pie-1800.jpg 1800w" sizes="(max-width: 899px) 92vw, 34vw" width="1800" height="1201" alt="Navor Pereira explica con una maqueta del esqueleto del pie a un paciente en el sillón" loading="lazy" decoding="async"></picture><figcaption>Navor, con el pie en la mano</figcaption></figure>
+          <div class="puerta__txt">
+            <p class="eyebrow">Consulta 03 · Cirugía del pie</p>
+            <h3>El mínimo dolor y la máxima función</h3>
+            <p>Con anestesia local y, cuando la cirugía lo pide, sedación en quirófano con anestesiólogos. Del juanete se vuelve a casa el mismo día, con el calzado postoperatorio, y las revisiones son en la clínica.</p>
+            <ul class="lista-o">
+              <li>Juanete (hallux valgus) y juanete de sastre</li>
+              <li>Uña encarnada, con 24 horas de reposo relativo</li>
+              <li>Dedos en martillo, neuroma de Morton, espolón</li>
+              <li>Quistes y tumores benignos, verrugas difíciles</li>
+            </ul>
+            <p class="quien"><picture data-foto="r-navor"><source type="image/avif" srcset="img/fotos/r-navor-400.avif 400w" sizes="48px"><source type="image/webp" srcset="img/fotos/r-navor-400.webp 400w" sizes="48px"><img src="img/fotos/r-navor-400.jpg" srcset="img/fotos/r-navor-400.jpg 400w" sizes="48px" width="400" height="500" alt="" loading="lazy" decoding="async"></picture><span><b>Navor Pereira</b>Podología quirúrgica</span></p>
+            <a class="btn btn--naranja" href="#cita" data-motivo="cirugia">Pedir valoración</a>
+          </div>
+        </div></div>
+      </div>
+      <div class="puerta" data-k="fisio">
+        <button class="puerta__franja" type="button" aria-expanded="false" aria-controls="p-fisio"><span class="puerta__num">04</span><span class="puerta__nom">Fisioterapia</span><svg class="puerta__pomo" viewBox="0 0 206 206" aria-hidden="true"><use href="#o"/></svg></button>
+        <div class="puerta__dentro" id="p-fisio" role="region" aria-label="04 Fisioterapia"><div class="puerta__caja">
+          <figure class="puerta__foto"><picture data-foto="fisio-espalda"><source type="image/avif" srcset="img/fotos/fisio-espalda-480.avif 480w, img/fotos/fisio-espalda-800.avif 800w, img/fotos/fisio-espalda-1200.avif 1200w, img/fotos/fisio-espalda-1600.avif 1600w, img/fotos/fisio-espalda-1800.avif 1800w" sizes="(max-width: 899px) 92vw, 34vw"><source type="image/webp" srcset="img/fotos/fisio-espalda-480.webp 480w, img/fotos/fisio-espalda-800.webp 800w, img/fotos/fisio-espalda-1200.webp 1200w, img/fotos/fisio-espalda-1600.webp 1600w, img/fotos/fisio-espalda-1800.webp 1800w" sizes="(max-width: 899px) 92vw, 34vw"><img src="img/fotos/fisio-espalda-800.jpg" srcset="img/fotos/fisio-espalda-480.jpg 480w, img/fotos/fisio-espalda-800.jpg 800w, img/fotos/fisio-espalda-1200.jpg 1200w, img/fotos/fisio-espalda-1600.jpg 1600w, img/fotos/fisio-espalda-1800.jpg 1800w" sizes="(max-width: 899px) 92vw, 34vw" width="1800" height="1201" alt="Manos de fisioterapeuta trabajando la espalda de un paciente en la camilla" loading="lazy" decoding="async"></picture><figcaption>Fisioterapia en la consulta 04</figcaption></figure>
+          <div class="puerta__txt">
+            <p class="eyebrow">Consulta 04 · Fisioterapia</p>
+            <h3>El cuerpo entero, en la puerta de al lado</h3>
+            <p>Fisioterapia, osteopatía y enfermería junto a la podología, para tratar el problema completo sin cambiar de centro. Y, de vez en cuando, actividades como yoga o pilates.</p>
+            <ul class="lista-o">
+              <li>Fisioterapia</li>
+              <li>Osteopatía</li>
+              <li>Enfermería</li>
+            </ul>
+            <p class="quien quien--pend"><span class="quien__sin" aria-hidden="true">?</span><span><b>Fisioterapeuta del centro</b>Nombre por confirmar</span></p>
+            <a class="btn btn--naranja" href="#cita" data-motivo="fisio">Pedir cita de fisioterapia</a>
+          </div>
+        </div></div>
+      </div>
+      <div class="puerta" data-k="readaptacion">
+        <button class="puerta__franja" type="button" aria-expanded="false" aria-controls="p-readaptacion"><span class="puerta__num">05</span><span class="puerta__nom">Readaptación</span><svg class="puerta__pomo" viewBox="0 0 206 206" aria-hidden="true"><use href="#o"/></svg></button>
+        <div class="puerta__dentro" id="p-readaptacion" role="region" aria-label="05 Readaptación"><div class="puerta__caja">
+          <figure class="puerta__foto"><picture data-foto="salto"><source type="image/avif" srcset="img/fotos/salto-480.avif 480w, img/fotos/salto-800.avif 800w, img/fotos/salto-1200.avif 1200w" sizes="(max-width: 899px) 92vw, 34vw"><source type="image/webp" srcset="img/fotos/salto-480.webp 480w, img/fotos/salto-800.webp 800w, img/fotos/salto-1200.webp 1200w" sizes="(max-width: 899px) 92vw, 34vw"><img src="img/fotos/salto-800.jpg" srcset="img/fotos/salto-480.jpg 480w, img/fotos/salto-800.jpg 800w, img/fotos/salto-1200.jpg 1200w" sizes="(max-width: 899px) 92vw, 34vw" width="1200" height="854" alt="Una deportista salta en la sala de readaptación mientras se mide su salto" loading="lazy" decoding="async"></picture><figcaption>Valoración del salto en la sala de readaptación</figcaption></figure>
+          <div class="puerta__txt">
+            <p class="eyebrow">Consulta 05 · Readaptación</p>
+            <h3>Volver mejor que antes de la lesión</h3>
+            <p>Readaptación de lesiones musculares, articulares y tendinosas, siempre en contacto con tu médico o tu fisioterapeuta. Y una valoración de la fuerza «desde el papel y boli hasta la plataforma de contacto».</p>
+            <ul class="lista-o">
+              <li>Readaptación de lesiones</li>
+              <li>Optimización del rendimiento en deportistas</li>
+              <li>Valoración funcional y de fuerza</li>
+              <li>Entrenamiento personal</li>
+            </ul>
+            <p class="quien quien--pend"><span class="quien__sin" aria-hidden="true">?</span><span><b>Readaptador del centro</b>Nombre por confirmar</span></p>
+            <a class="btn btn--naranja" href="#cita" data-motivo="readaptacion">Pedir valoración</a>
+          </div>
+        </div></div>
+      </div>
+      <div class="puerta" data-k="psicologia">
+        <button class="puerta__franja" type="button" aria-expanded="false" aria-controls="p-psicologia"><span class="puerta__num">06</span><span class="puerta__nom">Psicología</span><svg class="puerta__pomo" viewBox="0 0 206 206" aria-hidden="true"><use href="#o"/></svg></button>
+        <div class="puerta__dentro" id="p-psicologia" role="region" aria-label="06 Psicología"><div class="puerta__caja">
+          <div class="puerta__foto puerta__foto--frase" aria-hidden="true"><svg viewBox="0 0 206 206"><use href="#o-aro"/></svg><p>Cuida tu cuerpo, <span>tu salud lo notará</span></p></div>
+          <div class="puerta__txt">
+            <p class="eyebrow">Consulta 06 · Psicología</p>
+            <h3>La consulta más nueva</h3>
+            <p>Hoy Podogal se presenta como «podología, fisioterapia y psicología». Cuidar la cabeza también es cuidar el cuerpo, que es lo que la clínica dice desde siempre: «cuida tu cuerpo, tu salud lo notará».</p>
+            <ul class="lista-o">
+              <li>Qué trata y para quién: por confirmar</li>
+              <li>Presencial en Serra de Queixa</li>
+            </ul>
+            <p class="quien quien--pend"><span class="quien__sin" aria-hidden="true">?</span><span><b>Psicóloga o psicólogo del centro</b>Nombre por confirmar</span></p>
+            <a class="btn btn--naranja" href="#cita" data-motivo="psicologia">Pedir cita de psicología</a>
+          </div>
+        </div></div>
+      </div>
+    </div>
+    <!-- solo en la versión sobria: las seis, de un vistazo -->
+    <div class="vistazo" id="vistazo">
+      <table>
+        <caption>Las seis consultas, de un vistazo</caption>
+        <thead><tr><th scope="col">Consulta</th><th scope="col">Para qué</th><th scope="col">La lleva</th></tr></thead>
+        <tbody>
+          <tr><td>01 Podología</td><td>Uñas, durezas, verrugas, niños, mayores, pie diabético</td><td>Sonia y Navor Pereira</td></tr>
+          <tr><td>02 Biomecánica</td><td>Estudio de la pisada y plantillas a medida</td><td>Sonia Pereira</td></tr>
+          <tr><td>03 Cirugía del pie</td><td>Juanete, dedos en martillo, Morton, espolón, uña encarnada</td><td>Navor Pereira</td></tr>
+          <tr><td>04 Fisioterapia</td><td>Fisioterapia, osteopatía y enfermería</td><td>Por confirmar</td></tr>
+          <tr><td>05 Readaptación</td><td>Lesiones, fuerza, rendimiento, entrenamiento</td><td>Por confirmar</td></tr>
+          <tr><td>06 Psicología</td><td>Primera consulta</td><td>Por confirmar</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</section>
+
+<!-- ============ biomecánica y plantillas ============ -->
+<section class="sec bio" id="biomecanica" aria-labelledby="bio-tit">
+  <div class="env">
+    <header class="sec-cab">
+      <p class="eyebrow"><svg class="o-mini" viewBox="0 0 206 206" aria-hidden="true"><use href="#o"/></svg>02 · Biomecánica y plantillas</p>
+      <h2 id="bio-tit" data-partir>El porqué de cada paso</h2>
+      <p class="sec-cab__txt">«El deportista necesita saber qué es lo que está pasando en su cuerpo, el porqué del problema», y no solo el deportista. Primero se explora el pie, la rodilla, la cadera y la espalda; después se mide cómo pisas, de pie y caminando.</p>
+    </header>
+    <div class="modulo modulo--pisada" data-modulo="pisada">
+      <div class="modulo__respaldo">
+        <figure class="iris-foto"><picture data-foto="pisada"><source type="image/avif" srcset="img/fotos/pisada-480.avif 480w, img/fotos/pisada-800.avif 800w, img/fotos/pisada-1200.avif 1200w, img/fotos/pisada-1500.avif 1500w" sizes="(max-width: 899px) 92vw, 50vw"><source type="image/webp" srcset="img/fotos/pisada-480.webp 480w, img/fotos/pisada-800.webp 800w, img/fotos/pisada-1200.webp 1200w, img/fotos/pisada-1500.webp 1500w" sizes="(max-width: 899px) 92vw, 50vw"><img src="img/fotos/pisada-800.jpg" srcset="img/fotos/pisada-480.jpg 480w, img/fotos/pisada-800.jpg 800w, img/fotos/pisada-1200.jpg 1200w, img/fotos/pisada-1500.jpg 1500w" sizes="(max-width: 899px) 92vw, 50vw" width="1500" height="1000" alt="Estudio de la pisada: la huella de presiones en la pantalla mientras el paciente está de pie en la plataforma" loading="lazy" decoding="async"></picture></figure>
+        <div>
+          <h3>El estudio de la pisada</h3>
+          <p>En una primera fase, anamnesis y exploración del pie, los músculos y las articulaciones, con las dismetrías y la columna. En la segunda, estudio estático y de presiones en la plataforma digital. En la tercera, el progreso por videocaptación y, si hace falta, en el gesto deportivo.</p>
+        </div>
+      </div>
+    </div>
+    <div class="dos taller">
+      <figure class="dos__foto iris-foto"><picture data-foto="plantillas"><source type="image/avif" srcset="img/fotos/plantillas-480.avif 480w, img/fotos/plantillas-800.avif 800w, img/fotos/plantillas-1200.avif 1200w, img/fotos/plantillas-1500.avif 1500w" sizes="(max-width: 899px) 92vw, 46vw"><source type="image/webp" srcset="img/fotos/plantillas-480.webp 480w, img/fotos/plantillas-800.webp 800w, img/fotos/plantillas-1200.webp 1200w, img/fotos/plantillas-1500.webp 1500w" sizes="(max-width: 899px) 92vw, 46vw"><img src="img/fotos/plantillas-800.jpg" srcset="img/fotos/plantillas-480.jpg 480w, img/fotos/plantillas-800.jpg 800w, img/fotos/plantillas-1200.jpg 1200w, img/fotos/plantillas-1500.jpg 1500w" sizes="(max-width: 899px) 92vw, 46vw" width="1500" height="1000" alt="Dos plantillas negras hechas a medida sobre una mesa blanca" loading="lazy" decoding="async"></picture></figure>
+      <div class="dos__txt">
+        <p class="eyebrow">El taller propio</p>
+        <h3 data-partir>Una plantilla no es «de plantilla»</h3>
+        <p>Tras el estudio y un molde, la plantilla se hace a medida en su propio taller, donde también se retoca y se adapta en las revisiones. Siliconas digitales y soportes plantares, únicos para cada paciente, con materiales que cumplen la normativa europea.</p>
+        <dl class="cifras">
+          <div><dt>14 años</dt><dd>con la Carrera Popular de San Martiño</dd></div>
+          <div><dt>Maratones</dt><dd>MAPOMA, Maratón do Miño, andainas, fútbol y ciclismo</dd></div>
+        </dl>
+        <a class="btn btn--grafito" href="#cita" data-motivo="pisada">Pedir estudio de la pisada <i class="punto" aria-hidden="true"></i></a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ cirugía del pie ============ -->
+<section class="sec qx" id="cirugia" aria-labelledby="qx-tit">
+  <div class="env">
+    <header class="sec-cab sec-cab--claro">
+      <p class="eyebrow"><svg class="o-mini" viewBox="0 0 206 206" aria-hidden="true"><use href="#o"/></svg>03 · Cirugía del pie</p>
+      <h2 id="qx-tit" data-partir>Cuando pluma vence a martillo</h2>
+      <p class="sec-cab__txt">Para el juanete hay más de 150 técnicas descritas, así que cada caso se estudia: la biomecánica del pie, la edad, la actividad. No hace falta hospitalización: a casa con el calzado postoperatorio y las revisiones, en la clínica.</p>
+    </header>
+    <div class="modulo modulo--juanete" data-modulo="juanete">
+      <div class="modulo__respaldo">
+        <figure class="iris-foto"><picture data-foto="r-navor"><source type="image/avif" srcset="img/fotos/r-navor-400.avif 400w" sizes="(max-width: 899px) 60vw, 24vw"><source type="image/webp" srcset="img/fotos/r-navor-400.webp 400w" sizes="(max-width: 899px) 60vw, 24vw"><img src="img/fotos/r-navor-400.jpg" srcset="img/fotos/r-navor-400.jpg 400w" sizes="(max-width: 899px) 60vw, 24vw" width="400" height="500" alt="Navor Pereira Losada, podólogo, con uniforme azul" loading="lazy" decoding="async"></picture></figure>
+        <div>
+          <h3>Lo que se opera en Podogal</h3>
+          <ul class="lista-o">
+            <li>Juanete (hallux valgus) y juanete de sastre</li>
+            <li>Dedos en martillo y metatarsalgias</li>
+            <li>Neuroma de Morton</li>
+            <li>Espolón en el talón y fascitis plantar</li>
+            <li>Uña encarnada, con 24 horas de reposo relativo</li>
+            <li>Quistes, tumores benignos y verrugas difíciles</li>
+          </ul>
+        </div>
+        <div class="trayectoria">
+          <div class="trayectoria__cab">
+            <div>
+              <p class="eyebrow">Quién opera</p>
+              <h3>Navor Pereira Losada</h3>
+              <p>Podólogo y enfermero, codirector de la clínica. Se fue a Estados Unidos junto al profesor Cicchinelli, «donde aprendió cirugía, a interpretar pruebas, exploraciones y hasta enfocar la vida de otra manera».</p>
+            </div>
+          </div>
+          <ol class="hitos">
+            <li><b>Diplomado</b><span>en Podología y en Enfermería</span></li>
+            <li><b>Máster</b><span>en Podología Quirúrgica (Universidad de Barcelona)</span></li>
+            <li><b>EE. UU.</b><span>con el Dr. Cicchinelli; una charla en Atlanta con el Dr. McGlamry, pionero de la cirugía del pie</span></li>
+            <li><b>2020-21</b><span>Máster en Pie Diabético (Universidad Complutense)</span></li>
+            <li><b>Ecografía</b><span>y técnicas ecoguiadas de pie y tobillo, osteosíntesis, infiltraciones</span></li>
+            <li><b>Sept. 2026</b><span>premiado en el VI Congreso de la Sociedad Gallega de Heridas por un caso para evitar una amputación</span></li>
+          </ol>
+        </div>
+      </div>
+    </div>
+    <p class="qx__cta"><a class="btn btn--naranja" href="#cita" data-motivo="cirugia">Pedir valoración de cirugía</a></p>
+  </div>
+</section>
+
+<!-- ============ equipo ============ -->
+<section class="sec equipo" id="equipo" aria-labelledby="equipo-tit">
+  <div class="env">
+    <header class="sec-cab">
+      <p class="eyebrow"><svg class="o-mini" viewBox="0 0 206 206" aria-hidden="true"><use href="#o"/></svg>04 · Equipo</p>
+      <h2 id="equipo-tit" data-partir>Dos hermanos podólogos y la voz de la clínica</h2>
+    </header>
+    <div class="personas">
+      <article class="persona" id="persona-sonia">
+        <figure class="persona__foto"><picture data-foto="r-sonia"><source type="image/avif" srcset="img/fotos/r-sonia-480.avif 480w, img/fotos/r-sonia-700.avif 700w" sizes="(max-width: 699px) 80vw, 30vw"><source type="image/webp" srcset="img/fotos/r-sonia-480.webp 480w, img/fotos/r-sonia-700.webp 700w" sizes="(max-width: 699px) 80vw, 30vw"><img src="img/fotos/r-sonia-700.jpg" srcset="img/fotos/r-sonia-480.jpg 480w, img/fotos/r-sonia-700.jpg 700w" sizes="(max-width: 699px) 80vw, 30vw" width="700" height="875" alt="Sonia Pereira Losada, podóloga, con uniforme azul y los brazos cruzados" loading="lazy" decoding="async"></picture></figure>
+        <h3>Sonia Pereira Losada</h3>
+        <p class="persona__cargo">Podóloga · Biomecánica · Codirectora</p>
+        <p>«Siempre ofrece un análisis detallado del porqué de las dolencias derivadas del pie y la marcha.» Explicó en la TVG qué calzado evitar en verano.</p>
+        <ul class="persona__form">
+          <li>Diplomada en Podología (Universidade da Coruña, 2002) y licenciada (2003)</li>
+          <li>Experta en Biomecánica, Ortopodología y Podología funcional, y en Biomecánica avanzada (Universidad de Sevilla)</li>
+          <li>Experta Supervisora de Productos de Ortopedia a medida (2013)</li>
+          <li>Diplomada en Enfermería (Universidade de Vigo, 2012)</li>
+        </ul>
+      </article>
+      <article class="persona" id="persona-navor">
+        <figure class="persona__foto"><picture data-foto="r-navor"><source type="image/avif" srcset="img/fotos/r-navor-400.avif 400w" sizes="(max-width: 699px) 80vw, 30vw"><source type="image/webp" srcset="img/fotos/r-navor-400.webp 400w" sizes="(max-width: 699px) 80vw, 30vw"><img src="img/fotos/r-navor-400.jpg" srcset="img/fotos/r-navor-400.jpg 400w" sizes="(max-width: 699px) 80vw, 30vw" width="400" height="500" alt="Navor Pereira Losada, podólogo, sonriente con uniforme azul" loading="lazy" decoding="async"></picture></figure>
+        <h3>Navor Pereira Losada</h3>
+        <p class="persona__cargo">Podólogo · Cirugía del pie · Codirector</p>
+        <p>Especializado en podología quirúrgica y en pie diabético. Da talleres de salud del pie, como el de enero de 2026 con ALCER Ourense.</p>
+        <ul class="persona__form">
+          <li>Máster en Podología Quirúrgica (Universidad de Barcelona)</li>
+          <li>Máster en Pie Diabético (Universidad Complutense, 2020-21)</li>
+          <li>Diplomado en Podología y en Enfermería</li>
+          <li>Ecografía y técnicas ecoguiadas de pie y tobillo</li>
+        </ul>
+      </article>
+      <article class="persona" id="persona-maria">
+        <figure class="persona__foto"><picture data-foto="r-maria"><source type="image/avif" srcset="img/fotos/r-maria-480.avif 480w, img/fotos/r-maria-700.avif 700w" sizes="(max-width: 699px) 80vw, 30vw"><source type="image/webp" srcset="img/fotos/r-maria-480.webp 480w, img/fotos/r-maria-700.webp 700w" sizes="(max-width: 699px) 80vw, 30vw"><img src="img/fotos/r-maria-700.jpg" srcset="img/fotos/r-maria-480.jpg 480w, img/fotos/r-maria-700.jpg 700w" sizes="(max-width: 699px) 80vw, 30vw" width="700" height="875" alt="María Rego Guzmán, recepcionista, con bata blanca y los brazos cruzados" loading="lazy" decoding="async"></picture></figure>
+        <h3>María Rego Guzmán</h3>
+        <p class="persona__cargo">Recepción</p>
+        <p>«Es la cara y la voz de Clínica Podogal. Gestiona las agendas, los cobros, las sonrisas de los niños y los no tan niños.» Es quien te coge el teléfono.</p>
+        <ul class="persona__form">
+          <li>Auxiliar de clínica</li>
+          <li>Atención al cliente y calidad de servicio</li>
+        </ul>
+      </article>
+    </div>
+    <p class="equipo__resto"><svg class="o-mini" viewBox="0 0 206 206" aria-hidden="true"><use href="#o"/></svg>Y el equipo de fisioterapia, readaptación y psicología, que comparte el centro: <span class="por-confirmar">nombres por confirmar</span>.</p>
+  </div>
+</section>
+
+<!-- ============ lo que dicen ============ -->
+<section class="sec dicen" id="opiniones" aria-labelledby="dicen-tit">
+  <div class="env">
+    <header class="sec-cab">
+      <p class="eyebrow"><svg class="o-mini" viewBox="0 0 206 206" aria-hidden="true"><use href="#o"/></svg>05 · Lo que dicen</p>
+      <h2 id="dicen-tit" data-partir>Lo cuentan otros</h2>
+    </header>
+    <div class="dicen__rej">
+      <a class="nota-grande" href="https://www.google.com/maps/search/?api=1&amp;query=Cl%C3%ADnica+Podogal+Ourense" rel="noopener" target="_blank">
+        <span class="nota-grande__n">4,8</span>
+        <span class="estrellas" aria-hidden="true">★★★★★</span>
+        <span class="nota-grande__t">147 reseñas en Google</span>
+        <span class="nota-grande__ir">Leerlas en Google →</span>
+      </a>
+      <article class="hito-prensa">
+        <figure><picture data-foto="congreso"><source type="image/avif" srcset="img/fotos/congreso-480.avif 480w, img/fotos/congreso-640.avif 640w" sizes="(max-width: 699px) 92vw, 22vw"><source type="image/webp" srcset="img/fotos/congreso-480.webp 480w, img/fotos/congreso-640.webp 640w" sizes="(max-width: 699px) 92vw, 22vw"><img src="img/fotos/congreso-640.jpg" srcset="img/fotos/congreso-480.jpg 480w, img/fotos/congreso-640.jpg 640w" sizes="(max-width: 699px) 92vw, 22vw" width="640" height="640" alt="Diapositiva de la charla de Navor Pereira: Offloading Qx, cuando pluma vence a martillo" loading="lazy" decoding="async"></picture></figure>
+        <p class="eyebrow">Septiembre de 2026</p>
+        <h3>Premio en el VI Congreso de la Sociedad Gallega de Heridas</h3>
+        <p>Para Navor Pereira, por un caso clínico centrado en evitar una amputación y preservar la funcionalidad del pie.</p>
+      </article>
+      <article class="hito-prensa">
+        <figure><picture data-foto="taller-alcer"><source type="image/avif" srcset="img/fotos/taller-alcer-480.avif 480w, img/fotos/taller-alcer-639.avif 639w" sizes="(max-width: 699px) 92vw, 22vw"><source type="image/webp" srcset="img/fotos/taller-alcer-480.webp 480w, img/fotos/taller-alcer-639.webp 639w" sizes="(max-width: 699px) 92vw, 22vw"><img src="img/fotos/taller-alcer-639.jpg" srcset="img/fotos/taller-alcer-480.jpg 480w, img/fotos/taller-alcer-639.jpg 639w" sizes="(max-width: 699px) 92vw, 22vw" width="639" height="639" alt="Cartel del obradoiro Gym pés de ALCER Ourense, impartido por Navor Pereira" loading="lazy" decoding="async"></picture></figure>
+        <p class="eyebrow">Enero de 2026</p>
+        <h3>«Gym pés» con ALCER Ourense</h3>
+        <p>Un taller de salud del pie para pacientes renales y con diabetes, en la propia clínica: movilidad, fuerza y flexibilidad.</p>
+      </article>
+      <article class="hito-prensa hito-prensa--txt">
+        <p class="eyebrow">Junio de 2025</p>
+        <h3>Sonia, en «A Hora Galega» de la TVG</h3>
+        <p>Qué calzado conviene evitar en verano y por qué.</p>
+        <p class="eyebrow">Y desde hace años</p>
+        <p>Colaboración con la Asociación de Diabéticos Auria y con AFAOR en prevención, y con la Carrera Popular de San Martiño.</p>
+      </article>
+    </div>
+    <div class="mutuas" id="mutuas">
+      <h3>Mutuas y aseguradoras</h3>
+      <ul>
+        <li>Muface</li><li>Mugeju</li><li>Cosalud</li><li>Occident</li><li>Asesou</li>
+      </ul>
+      <p>Consulta las condiciones de tu póliza al pedir cita: no todos los servicios están cubiertos.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ============ pedir cita ============ -->
+<section class="sec cita" id="cita" aria-labelledby="cita-tit">
+  <div class="env">
+    <header class="sec-cab sec-cab--claro">
+      <p class="eyebrow"><svg class="o-mini" viewBox="0 0 206 206" aria-hidden="true"><use href="#o"/></svg>06 · Pedir cita</p>
+      <h2 id="cita-tit" data-partir>Elige consulta, día y hora</h2>
+      <p class="sec-cab__txt">Los huecos libres de cada consulta, con el horario de la clínica. Si lo prefieres, llama al <a href="tel:+34988255537">988 25 55 37</a>.</p>
+    </header>
+    <div class="motor" id="motor">
+      <p class="motor__demo">Demostración: no se envía ni se guarda nada. Los huecos son de ejemplo.</p>
+      <ol class="motor__pasos" aria-label="Pasos">
+        <li data-paso="1" aria-current="step">Consulta</li><li data-paso="2">Día</li><li data-paso="3">Hora</li><li data-paso="4">Tus datos</li>
+      </ol>
+      <div class="motor__cuerpo">
+        <div class="motor__vista" data-vista="1">
+          <h3 class="motor__tit">¿Para qué es la cita?</h3>
+          <div class="motivo-lista" id="motivo-lista" role="radiogroup" aria-label="Consulta"></div>
+        </div>
+        <div class="motor__vista" data-vista="2" hidden>
+          <h3 class="motor__tit">Elige un día</h3>
+          <div class="cal-nav"><button type="button" id="cal-ant" aria-label="Mes anterior">‹</button><b id="cal-mes"></b><button type="button" id="cal-sig" aria-label="Mes siguiente">›</button></div>
+          <div class="cal" id="cal" role="grid" aria-label="Calendario"></div>
+          <p class="cal-leyenda"><span><i class="l1"></i>Con huecos</span><span><i class="l2"></i>Pocos huecos</span><span><i class="l3"></i>Cerrado o lleno</span></p>
+        </div>
+        <div class="motor__vista" data-vista="3" hidden>
+          <h3 class="motor__tit" id="horas-tit">Elige una hora</h3>
+          <div class="horas" id="horas" role="group" aria-labelledby="horas-tit"></div>
+        </div>
+        <div class="motor__vista" data-vista="4" hidden>
+          <h3 class="motor__tit">Tus datos</h3>
+          <form class="datos" id="datos" novalidate>
+            <label>Nombre<input name="nombre" autocomplete="name" required></label>
+            <label>Teléfono<input name="tel" type="tel" autocomplete="tel" inputmode="tel" required></label>
+            <label>Mutua o seguro <span>(opcional)</span><input name="mutua" autocomplete="off"></label>
+            <label class="datos__ancho">¿Algo que debamos saber? <span>(opcional)</span><textarea name="nota" rows="2"></textarea></label>
+            <label class="datos__check"><input type="checkbox" name="priv" required> He leído la <a href="privacidad.html">política de privacidad</a></label>
+            <p class="datos__error" id="datos-error" aria-live="polite"></p>
+            <button class="btn btn--naranja" type="submit">Pedir la cita</button>
+          </form>
+        </div>
+        <div class="motor__vista motor__hecho" data-vista="5" hidden tabindex="-1">
+          <h3 class="motor__tit">Solicitud enviada <small>(de mentira)</small></h3>
+          <p id="hecho-texto"></p>
+          <p class="motor__codigo" id="hecho-codigo"></p>
+          <button type="button" class="btn btn--hueco" id="motor-otra">Pedir otra cita</button>
+        </div>
+      </div>
+      <aside class="motor__resumen" aria-label="Tu cita">
+        <h3>Tu cita</h3>
+        <dl>
+          <dt>Consulta</dt><dd id="r-motivo">—</dd>
+          <dt>Día</dt><dd id="r-dia">—</dd>
+          <dt>Hora</dt><dd id="r-hora">—</dd>
+          <dt>Dura</dt><dd id="r-dura">—</dd>
+          <dt>Te atiende</dt><dd id="r-quien">—</dd>
+        </dl>
+        <p class="motor__precio" id="r-precio">Duración y profesional, orientativos: se confirman al llamarte.</p>
+        <div class="motor__nav"><button type="button" class="btn btn--hueco" id="motor-atras" disabled>Atrás</button><button type="button" class="btn btn--naranja" id="motor-sigue" disabled>Seguir</button></div>
+        <p class="motor__tel">¿Prefieres llamar? <a href="tel:+34988255537">988 25 55 37</a></p>
+      </aside>
+    </div>
+  </div>
+</section>
+
+<!-- ============ horario y cómo llegar ============ -->
+<section class="sec llegar" id="llegar" aria-labelledby="llegar-tit">
+  <div class="env llegar__in">
+    <div class="llegar__txt">
+      <p class="eyebrow"><svg class="o-mini" viewBox="0 0 206 206" aria-hidden="true"><use href="#o"/></svg>07 · Horario y cómo llegar</p>
+      <h2 id="llegar-tit" data-partir>Rúa Serra de Queixa, 6</h2>
+      <p class="llegar__dir">Bajo · 32005 Ourense</p>
+      <p class="ahora ahora--grande"><i class="ahora__punto" data-ahora-punto></i><span data-ahora>Consulta el horario</span></p>
+      <table class="horario">
+        <caption class="vh">Horario de la clínica</caption>
+        <tbody>
+          <tr data-dia="1"><th scope="row">Lunes</th><td>9:00 – 17:30</td></tr>
+          <tr data-dia="2"><th scope="row">Martes</th><td>9:30 – 13:30 · 15:30 – 19:30</td></tr>
+          <tr data-dia="3"><th scope="row">Miércoles</th><td>9:00 – 17:30</td></tr>
+          <tr data-dia="4"><th scope="row">Jueves</th><td>9:30 – 13:30 · 15:30 – 19:30</td></tr>
+          <tr data-dia="5"><th scope="row">Viernes</th><td>9:00 – 17:00</td></tr>
+          <tr data-dia="6"><th scope="row">Sábado y domingo</th><td>Cerrado</td></tr>
+        </tbody>
+      </table>
+      <ul class="llegar__tels">
+        <li><a href="tel:+34988255537"><b>988 25 55 37</b><span>Teléfono de la clínica</span></a></li>
+        <li><a href="tel:+34616840129"><b>616 84 01 29</b><span>Móvil</span></a></li>
+        <li><a href="mailto:info@podogal.com"><b>info@podogal.com</b><span>Correo</span></a></li>
+      </ul>
+    </div>
+    <div class="mapa" id="mapa">
+      <div class="map-consent" id="mapa-consent">
+        <svg viewBox="0 0 206 206" aria-hidden="true"><use href="#o"/></svg>
+        <p>El mapa es de Google y, al cargarlo, Google puede guardar cookies en tu navegador.</p>
+        <button type="button" class="btn btn--grafito" id="mapa-btn">Ver el mapa</button>
+        <a href="https://www.google.com/maps/search/?api=1&amp;query=R%C3%BAa+Serra+de+Queixa+6+32005+Ourense" rel="noopener" target="_blank">Abrir en Google Maps</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<footer class="pie" id="pie">
+  <div class="env">
+    <div class="pie__marca" aria-hidden="true">
+      <span class="pie__w">POD<svg class="pie__o" viewBox="0 0 206 206"><use href="#o"/></svg>GAL</span>
+      <span class="pie__c">CLÍNICA</span>
+    </div>
+    <div class="pie__cols">
+      <div>
+        <h2 class="pie__tit">Dónde</h2>
+        <p>Rúa Serra de Queixa, 6, bajo<br>32005 Ourense</p>
+        <p><a href="tel:+34988255537">988 25 55 37</a> · <a href="tel:+34616840129">616 84 01 29</a><br><a href="mailto:info@podogal.com">info@podogal.com</a></p>
+      </div>
+      <div>
+        <h2 class="pie__tit">Horario</h2>
+        <p>Lunes y miércoles, de 9:00 a 17:30<br>Martes y jueves, de 9:30 a 13:30 y de 15:30 a 19:30<br>Viernes, de 9:00 a 17:00</p>
+        <p class="ahora"><i class="ahora__punto" data-ahora-punto></i><span data-ahora></span></p>
+      </div>
+      <div>
+        <h2 class="pie__tit">Síguenos</h2>
+        <p><a href="https://www.instagram.com/clinicapodogal/" rel="noopener" target="_blank">Instagram</a><br><a href="https://www.facebook.com/clinicapodogal/" rel="noopener" target="_blank">Facebook</a></p>
+        <a class="btn btn--naranja" href="#cita">Pedir cita</a>
+      </div>
+    </div>
+    <div class="pie__legal">
+      <p>Centro sanitario inscrito en el Registro de Centros, Servicios y Establecimientos Sanitarios de Galicia con el número C-32-000323.</p>
+      <nav aria-label="Legal"><a href="aviso-legal.html">Aviso legal</a><a href="privacidad.html">Privacidad</a><a href="cookies.html">Cookies</a><a href="accesibilidad.html">Accesibilidad</a><button type="button" id="abrir-cookies">Preferencias de cookies</button></nav>
+      <p>© <span id="anno">2026</span> Clínica Podogal</p>
+    </div>
+  </div>
+</footer>
+
+<!-- barra fija del móvil -->
+<div class="barra" id="barra" aria-hidden="true">
+  <a href="tel:+34988255537" tabindex="-1">Llamar</a>
+  <a href="#cita" class="barra__cita" tabindex="-1">Pedir cita</a>
+</div>
+
+<div class="cookies" id="cookies" role="region" aria-label="Aviso de cookies" hidden>
+  <p>Esta web no usa cookies de análisis ni de publicidad. Guarda en tu navegador que has visto este aviso; el mapa de Google solo se carga si lo pides. <a href="cookies.html">Más información</a></p>
+  <div class="cookies__acc">
+    <button class="btn btn--naranja" type="button" id="ck-si">Entendido</button>
+    <button class="btn btn--hueco" type="button" id="ck-no">Solo lo necesario</button>
+  </div>
+</div>
+
+<!-- MANDO DE MAQUETA (no viaja al cliente): solo con ?revision -->
+<div class="mando" id="mando" role="group" aria-label="Dos versiones de la misma web" hidden>
+  <span class="mando__eti">Versión</span>
+  <button type="button" data-densidad="cargada" aria-pressed="true">La O</button>
+  <button type="button" data-densidad="sobria" aria-pressed="false">Sobria</button>
+</div>
+<!-- fin del MANDO DE MAQUETA -->
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" defer></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js" defer></script>
+<script src="https://cdn.jsdelivr.net/npm/@studio-freight/lenis@1.0.42/dist/lenis.min.js" defer></script>
+<script src="js/horario.js?v=1a7d1711" defer></script>
+<script src="js/pisada.js?v=f7d4d7fb" defer></script>
+<script src="js/juanete.js?v=5b89068c" defer></script>
+<script src="js/main.js?v=1340341f" defer></script>
+<script src="js/cita.js?v=572d16ea" defer></script>
+</body>
+</html>
