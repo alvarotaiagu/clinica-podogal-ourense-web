@@ -157,12 +157,20 @@
   }));
 
   /* ============ 6. módulos: «Pisa aquí» y «Planificar un juanete» (cada uno en su archivo) ============ */
-  $$('[data-modulo]').forEach((el) => {
+  // se montan al acercarse a la pantalla: montarlos al arrancar dejaba una tarea larga de ~330 ms
+  const montarModulo = (el) => {
     try { window.Podogal?.[el.dataset.modulo]?.montar(el, { movimiento: motion }); }
     catch (er) { console.warn('Módulo ' + el.dataset.modulo + ': se queda el respaldo', er); }
     // si no montó, el respaldo es lo que se ve: sus fotos también se abren en iris
     if (el.dataset.montado !== '1') vigilarIris(el);
-  });
+    else if (hayGSAP) ScrollTrigger.refresh();   // el módulo cambia el alto de su sección
+  };
+  if ('IntersectionObserver' in window) {
+    const ioMod = new IntersectionObserver((es) => es.forEach((e) => {
+      if (e.isIntersecting) { ioMod.unobserve(e.target); montarModulo(e.target); }
+    }), { rootMargin: '900px 0px' });
+    $$('[data-modulo]').forEach((el) => ioMod.observe(el));
+  } else $$('[data-modulo]').forEach(montarModulo);
 
   /* ============ 7. cortina: el punto, el aro que se dibuja y el iris que se abre ============ */
   const cortina = $('#cortina');

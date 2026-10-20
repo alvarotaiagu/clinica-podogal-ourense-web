@@ -127,7 +127,10 @@ try {
     const hor = await page.evaluate(() => { const trs = [...document.querySelectorAll('.horario tr')]; return { vis: trs.filter((t) => t.getBoundingClientRect().height > 0).length, hoy: trs.filter((t) => t.classList.contains('es-hoy')).length }; });
     comprobar(hor.vis === 6 && hor.hoy === 1, 'horario: 6 filas visibles y hoy marcado', hor);
     // módulos
-    comprobar(await page.evaluate(() => document.querySelectorAll('[data-modulo][data-montado="1"]').length === 2), 'los dos módulos (pisada y juanete) montan');
+    comprobar(await page.evaluate(() => document.querySelectorAll('[data-modulo][data-montado="1"]').length === 0), 'los módulos no se montan al arrancar (sin tarea larga)');
+    for (const m of ['pisada', 'juanete']) await page.locator(`[data-modulo="${m}"]`).scrollIntoViewIfNeeded();
+    comprobar(await page.waitForFunction(() => document.querySelectorAll('[data-modulo][data-montado="1"]').length === 2, null, { timeout: 5000 }).then(() => true, () => false), 'los dos módulos (pisada y juanete) montan al acercarse');
+    await page.evaluate(() => scrollTo(0, 0));
     // pasillo: seis puertas visibles; cada franja abre su puerta y solo esa
     let bien = true;
     for (let i = 0; i < 6; i++) {
