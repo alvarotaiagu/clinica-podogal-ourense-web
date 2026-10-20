@@ -137,7 +137,18 @@
         $$('a, button:not(.puerta__franja)', $('.puerta__dentro', p)).forEach((a) => { a.tabIndex = si ? 0 : -1; });
       });
     };
-    franjas.forEach((b, i) => b.addEventListener('click', () => abrir(i)));
+    // apiladas (móvil): al cerrarse la puerta de arriba todo sube; la franja pulsada se queda quieta bajo el dedo
+    const apiladas = matchMedia('(max-width: 899px)');
+    const anclar = (el) => {
+      const y0 = el.getBoundingClientRect().top, fin = performance.now() + 750;
+      const paso = () => {
+        const d = el.getBoundingClientRect().top - y0;
+        if (Math.abs(d) > 0.5) { if (lenis) lenis.scrollTo(scrollY + d, { immediate: true }); else scrollBy(0, d); }
+        if (performance.now() < fin) requestAnimationFrame(paso);
+      };
+      requestAnimationFrame(paso);
+    };
+    franjas.forEach((b, i) => b.addEventListener('click', () => { if (apiladas.matches && i !== abierta) anclar(b); abrir(i); }));
     $('#pasillo').addEventListener('keydown', (e) => {
       const k = franjas.indexOf(document.activeElement);
       if (k < 0) return;
